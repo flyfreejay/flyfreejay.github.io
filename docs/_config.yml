@@ -28,6 +28,7 @@ baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://flyfreejay.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 github_username: "flyfreejay"
 
+
 # Build settings
 theme: jekyll-theme-hacker
 plugins:
@@ -52,3 +53,7 @@ plugins:
 #   - vendor/cache/
 #   - vendor/gems/
 #   - vendor/ruby/
+
+github:
+  #hide view-on-github button
+  is_project_page: false
